@@ -2,7 +2,19 @@
 
 int main(void)
 {
-	int s = 5;
+	int five = 5;		
+
+	printf("%d * 1 = %d\n", five, five * 1);
+	printf("%d * 2 = %d\n", five, five * 2);
+	printf("%d * 3 = %d\n", five, five * 3);
+	printf("%d * 4 = %d\n", five, five * 4);
+	printf("%d * 5 = %d\n", five, five * 5);
+	printf("%d * 6 = %d\n", five, five * 6);
+	printf("%d * 7 = %d\n", five, five * 7);
+	printf("%d * 8 = %d\n", five, five * 8);
+	printf("%d * 9 = %d\n", five, five * 9);
+
+	/*int s = 5;
 	int num = 1;
 
 	printf("1~9중 하나를 입력해주세요:\n");
@@ -13,7 +25,7 @@ int main(void)
 	{
 		printf("%d * %d = %d\n", s, num, s * num);
 		num++;
-	}
+	}후.....*/
 
 	fgetc(stdin);		//입력 전에 프로그램 바로 끝내버리지 않도록
 }
